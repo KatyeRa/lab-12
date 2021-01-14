@@ -8,20 +8,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Lab12</title>
+    <title>Lab12rakitova</title>
   </head>
   <body>
     <div id="app">
-      <form action="">
-            <h3>Форма</h3>
-            <div class="form_item">
-                <label for="surname">Фамилия</label>
-                <input type="text" id="surname" v-model="surname">
-            </div>
+      <h1>Список студентов</h1>
+    <p>Введите имя и фамилию, чтобы добавить студента в список</p>
+          <form action="">
+            <h2>Форма</h2>
             <div class="form_item">
                 <label for="name">Имя</label>
                 <input type="text" id="name" v-model="name">
             </div>
+            <div class="form_item">
+                <label for="surname">Фамилия</label>
+                <input type="text" id="surname" v-model="surname">
+            </div>
+            
         </form>
     </div>
     <p class="counter">
