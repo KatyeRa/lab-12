@@ -8,26 +8,30 @@ body {
     font-family: 'Helvetica', sans-serif;
     text-align: center;
     margin: 0 10%;
+    background-color: #f7e7f7;
 }
+main
 
 h1 {
-    color: black;
+    color: #000;
     margin: 1em 0;
 }
 
 p {
-    color: black;
+    color: #000;
     margin: 1em 0;
+
 }
 
-h2 {
-    color: black;
+h3 {
+    color: #000;
 }
 
 .form {
     margin: auto;
-    max-width: 200px;
+    max-width: 300px;
 }
+
 .form_item {
     display: flex;
     flex-direction: column;
@@ -36,34 +40,35 @@ h2 {
 
 input {
     padding: 10px;
+    border: 3px solid;
     font-size: 1.5em;
-    transition: .5s;
+    transition: 1s;
+    color: #000;
 }
 
 input:focus {
     outline: none;
-    background: white;
-    color: #BD1E51;
 }
 
 label {
     text-align: left;
     font-weight: bold;
     font-size: 1em;
+    color: #4d3848;
 }
 
 .button {
     padding: 10px;
-    transition: .4s ease-in-out;
+    transition: .5s ease-in-out;
     font-size: 1em;
     outline: none;
     cursor: pointer;
-    background: #CF13D7;
-    color: #000;
+    color: #9e1f85;
 }
 
 .button:hover {
-    background: #DBA2DE ;
+    background: #9C0EA3;
+    color: #000;
 }
 
 ol {
