@@ -18,13 +18,13 @@
             <h2>Форма</h2>
             <div class="form_item">
                 <label for="name">Имя</label>
-                <input type="text" id="name" v-model="name">
+                <input type="text" size="30" id="name" v-model="name">
             </div>
             <div class="form_item">
                 <label for="surname">Фамилия</label>
-                <input type="text" id="surname" v-model="surname">
+                <input type="text" size="30" id="surname" v-model="surname">
             </div>
-            
+
         </form>
     </div>
     <p class="counter">
@@ -47,8 +47,8 @@
         data: {
             studentList: [],
             counter: 0,
-            name: "Екатерина",
-            surname: "Ракитова"
+            name: "",
+            surname: ""
         },
         methods: {
             addStudent() {
@@ -67,7 +67,5 @@
         }
     });
 </script>
-
-
 </body>
 </html>

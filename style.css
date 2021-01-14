@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     text-align: center;
     margin: 0 10%;
 }
@@ -26,7 +26,7 @@ h2 {
 
 .form {
     margin: auto;
-    max-width: 300px;
+    max-width: 200px;
 }
 .form_item {
     display: flex;
@@ -36,10 +36,8 @@ h2 {
 
 input {
     padding: 10px;
-    background: #BD1E51;
     font-size: 1.5em;
-    transition: 1s;
-    color: #f1f1f1;
+    transition: .5s;
 }
 
 input:focus {
@@ -60,13 +58,12 @@ label {
     font-size: 1em;
     outline: none;
     cursor: pointer;
-    background: #CF13D7
+    background: #CF13D7;
     color: #000;
 }
 
 .button:hover {
     background: #DBA2DE ;
-    color: #000;
 }
 
 ol {
