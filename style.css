@@ -1,0 +1,19 @@
+h1 {
+    color: black;
+    margin: 1em 0;
+}
+
+p {
+    color: black;
+    margin: 1em 0;
+
+}
+
+h3 {
+    color: black;
+}
+
+.form {
+    margin: auto;
+    max-width: 300px;
+}
