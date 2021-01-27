@@ -19,11 +19,11 @@
             <h3>Форма</h3>
             <div class="form_item">
                 <label for="name">Имя</label>
-                <input type="text" id="name" v-model="name">
+                <input type="text" id="name" v-model.trim="name">
             </div>
             <div class="form_item">
                 <label for="surname">Фамилия</label>
-                <input type="text" id="surname" v-model="surname">
+                <input type="text" id="surname" v-model.trim="surname">
             </div>
         </form>
     </div>
@@ -67,5 +67,6 @@
         }
     });
 </script>
+
 </body>
 </html>

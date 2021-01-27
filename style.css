@@ -84,3 +84,6 @@ ol {
     text-align: left;
     padding-bottom: .5em;
 }
+#addStudent {
+  text-transform: capitalize;
+}
